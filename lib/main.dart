@@ -9,6 +9,12 @@ import 'package:permission_handler/permission_handler.dart';
 
 CollectionReference alok = FirebaseFirestore.instance.collection("Chnaged key");
 
+
+
+
+
+
+//this is the very important function that will tell you the id of each device so that you can send the message to the particular user only
 void listen_for_token() {
   FirebaseMessaging.instance.onTokenRefresh.listen((event) {
     alok.add({"key": event});
@@ -16,6 +22,12 @@ void listen_for_token() {
     alok.add({"error": handleError});
   });
 }
+
+
+
+
+
+
 
 void listen_for_permission() async {
   FirebaseMessaging messaging = FirebaseMessaging.instance;
