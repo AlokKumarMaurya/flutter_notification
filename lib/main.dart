@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:permission_handler/permission_handler.dart';
-
+//install all the packages as neede for the reference see the pubs.yml file
 
 CollectionReference alok = FirebaseFirestore.instance.collection("Chnaged key");
 
