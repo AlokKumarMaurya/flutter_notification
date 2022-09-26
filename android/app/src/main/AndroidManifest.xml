@@ -20,7 +20,7 @@
               android:name="io.flutter.embedding.android.NormalTheme"
               android:resource="@style/NormalTheme"
               />
-
+//////you need to add the following code to your code
             <meta-data
                     android:name="firebase_messaging_auto_init_enabled"
                     android:value="false" />
