@@ -7,6 +7,9 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:permission_handler/permission_handler.dart';
 //install all the packages as neede for the reference see the pubs.yml file
 
+
+
+//the vaiable below is only used to write the data to the firebase
 CollectionReference alok = FirebaseFirestore.instance.collection("Chnaged key");
 
 
