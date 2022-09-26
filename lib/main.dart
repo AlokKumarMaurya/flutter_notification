@@ -31,7 +31,7 @@ void listen_for_token() {
 
 
 
-
+//this function is used to ask for the permission from the user if not earlier
 void listen_for_permission() async {
   FirebaseMessaging messaging = FirebaseMessaging.instance;
 
